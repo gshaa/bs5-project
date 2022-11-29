@@ -1,0 +1,29 @@
+.nav-link {
+  color: rgb(188, 185, 185);
+}
+
+.navbar-nav .nav-link.active {
+  color: aquamarine;
+}
+
+.navbar-brand img {
+  margin-bottom: 4px;
+  width: 60px;
+}
+
+.navbar-toggler {
+  background-color: rgb(120, 117, 117);
+}
+
+body {
+  background: linear-gradient(90deg, #2766c5 0%, hsl(52, 89%, 66%) 100%);
+}
+
+.card {
+  background: linear-gradient(90deg, #e7ccb0 0%, #edb9c7 100%);
+}
+
+.sidebar {
+  color: rgb(10, 64, 46);
+  background: linear-gradient(90deg, #909cae 0%, hsl(52, 89%, 66%) 100%);
+}
