@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
 .nav-link {
   color: rgb(188, 185, 185);
 }
@@ -16,14 +18,46 @@
 }
 
 body {
-  background: linear-gradient(90deg, #2766c5 0%, hsl(52, 89%, 66%) 100%);
+  background: linear-gradient(90deg, #032964 0%, hsl(242, 100%, 14%) 100%);
+  font-family: Roboto, serif;
 }
 
 .card {
-  background: linear-gradient(90deg, #e7ccb0 0%, #edb9c7 100%);
+  color: rgb(191, 247, 228);
+  background: linear-gradient(270deg, #2b5ca5 0%, hsl(242, 100%, 14%) 100%);
 }
 
 .sidebar {
-  color: rgb(10, 64, 46);
-  background: linear-gradient(90deg, #909cae 0%, hsl(52, 89%, 66%) 100%);
+  color: rgb(191, 247, 228);
+  background: linear-gradient(270deg, #0e2f62 0%, hsl(242, 100%, 14%) 100%);
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(191, 247, 228);
+}
+
+.slide-text {
+  color: rgb(191, 247, 228);
+  margin: auto auto;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+.footer-text {
+  color: rgb(191, 247, 228);
+}
+
+footer {
+  background: linear-gradient(270deg, #082b60 0%, hsl(242, 100%, 14%) 100%);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
