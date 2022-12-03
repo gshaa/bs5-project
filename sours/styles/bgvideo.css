@@ -31,4 +31,6 @@
 .video-text {
   color: rgb(205, 232, 7);
   z-index: 2;
+  font-size: 3rem;
+  font-weight: bold;
 }
